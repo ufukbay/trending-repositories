@@ -1,0 +1,32 @@
+.repositoryShow {
+  border-radius: 6px;
+  border: 1px solid #242424;
+  display: flex;
+  margin-bottom: 10px;
+  max-width: 100%;
+  padding: 16px;
+}
+
+.repositoryShow__content {
+  display: flex;
+  flex-direction: column;
+  flex: 1 1 0;
+  min-width: 0;
+}
+
+.repositoryShow__info {
+  display: flex;
+  gap: 5px;
+}
+
+.repositoryShow__stars {
+  align-items: center;
+  display: flex;
+  gap: 4px;
+}
+
+.repositoryShow__starBtn {
+  align-items: center;
+  display: flex;
+  gap: 4px;
+}

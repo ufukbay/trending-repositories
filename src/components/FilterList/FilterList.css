@@ -1,0 +1,21 @@
+.filterList {
+  margin-bottom: 13px;
+}
+
+.filterList__filter {
+  background-color: #f0f0f0;
+  border-radius: 20px;
+  border: 1px solid transparent;
+  color: #242424;
+  margin: 3px;
+  transition: border-color 0.25s;
+}
+.filterList__filter:hover {
+  border-color: #242424;
+}
+.filterList__filter:focus {
+  outline: none;
+}
+.filterList__filter--active {
+  border-color: #242424;
+}
